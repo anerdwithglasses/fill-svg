@@ -37,7 +37,7 @@ const fillPaintBuilder = () => {
 
   const applySvgPaintBehavior = (containerDiv) => {
     if (!containerDiv) {
-      console.error(
+      return console.error(
         "You don`t send containerDiv of Image Box for fillPaintBuilder"
       );
     }
